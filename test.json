@@ -1,0 +1,14 @@
+{
+    "BillPeriodSummary": {
+        "@billTotal": "94.59",
+        "@dueDate": "01 Oct",
+        "@isNewCustomer": "false",
+        "@previousOutstandingBalance": "0.00",
+        "@statementDate": "17 Sep 2014",
+        "@isFirstBill": "false",
+        "@billStartDate": "01 Oct 14",
+        "@billEndDate": "31 Oct 14",
+        "@balanceTotal": "0.00",
+        "@telephone": "01309017917"
+    }
+}

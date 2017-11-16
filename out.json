@@ -1,0 +1,264 @@
+
+{
+   "ServiceResponse":{
+      "Result":{
+         "@success":"true"
+      },
+      "BillPeriodSummary":{
+         "@billTotal":"94.59",
+         "@dueDate":"01 Oct",
+         "@isNewCustomer":"false",
+         "@previousOutstandingBalance":"0.00",
+         "@statementDate":"17 Sep 2014",
+         "@isFirstBill":"false",
+         "@billStartDate":"01 Oct 14",
+         "@billEndDate":"31 Oct 14",
+         "@balanceTotal":"0.00",
+         "@telephone":"01309017917",
+         "BillCategoryList":{
+            "BillCategoryDetail":[
+               {
+                  "@statementType":"SKY_PACKAGE",
+                  "@desc":"My subscriptions",
+                  "@total":"39.40",
+                  "@hasNotification":"true",
+                  "@startDate":"01 Oct",
+                  "@endDate":"31 Oct",
+                  "TransactionDetailList":[
+                     {
+                        "@date":"01 Oct to 31 Oct",
+                        "@title":"One month in advance",
+                        "Trans":[
+                           {
+                              "@hasDiscounts":"true",
+                              "@undiscountedVal":"33.00",
+                              "@desc":"Family",
+                              "@transType":"charge",
+                              "@val":"16.50",
+                              "@hasSkyGoAndSkyHD":"false",
+                              "discounts":[
+                                 {
+                                    "@desc":"Viewing Subscription Discounted",
+                                    "@val":"-16.50"
+                                 }
+                              ]
+                           },
+                           {
+                              "@hasDiscounts":"false",
+                              "@desc":"Sky Talk Line Rental",
+                              "@transType":"charge",
+                              "@val":"15.40",
+                              "@hasSkyGoAndSkyHD":"false"
+                           },
+                           {
+                              "@hasDiscounts":"false",
+                              "@desc":"Sky Talk Unlimited",
+                              "@transType":"free",
+                              "@val":"0.00",
+                              "@hasSkyGoAndSkyHD":"false"
+                           },
+                           {
+                              "@hasDiscounts":"false",
+                              "@desc":"1571 - Voicemail",
+                              "@transType":"free",
+                              "@val":"0.00",
+                              "@hasSkyGoAndSkyHD":"false"
+                           },
+                           {
+                              "@hasDiscounts":"false",
+                              "@desc":"Caller Display",
+                              "@transType":"free",
+                              "@val":"0.00",
+                              "@hasSkyGoAndSkyHD":"false"
+                           },
+                           {
+                              "@hasDiscounts":"false",
+                              "@desc":"Sky Broadband Unlimited",
+                              "@transType":"charge",
+                              "@val":"7.50",
+                              "@hasSkyGoAndSkyHD":"false"
+                           },
+                           {
+                              "@hasDiscounts":"false",
+                              "@desc":"Sky WiFi",
+                              "@transType":"free",
+                              "@val":"0.00",
+                              "@hasSkyGoAndSkyHD":"false"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "@statementType":"PRO_RATA_CHARGES",
+                  "@desc":"Last month's changes",
+                  "@total":"3.00",
+                  "@hasNotification":"true",
+                  "TransactionDetailList":[
+                     {
+                        "@date":"15 Sep to 30 Sep",
+                        "@title":"16 days",
+                        "Trans":[
+                           {
+                              "@hasDiscounts":"false",
+                              "@desc":"Sky Talk 24 / 7 + International",
+                              "@transType":"charge",
+                              "@val":"6.00",
+                              "@hasSkyGoAndSkyHD":"false"
+                           },
+                           {
+                              "@hasDiscounts":"false",
+                              "@desc":"Credit for Cancellation of Sky Talk Unlimited",
+                              "@transType":"charge",
+                              "@val":"-3.00"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "@statementType":"SKY_TALK",
+                  "@desc":"Call charges",
+                  "@total":"8.46",
+                  "@hasNotification":"false"
+               },
+               {
+                  "@statementType":"SKY_STORE",
+                  "@desc":"Sky Box Office",
+                  "@total":"21.93",
+                  "@hasNotification":"false",
+                  "TransactionDetailList":[
+                     {
+                        "@title":"Sky Store - Rental, Pay Per View & Other",
+                        "Trans":[
+                           {
+                              "@desc":"THE GOLDEN COMPASS (PG)",
+                              "@dateTime":"10 Sep 17:54:00",
+                              "@val":"3.99"
+                           },
+                           {
+                              "@desc":"WWE NO MERCY LIVE",
+                              "@dateTime":"20 Sep 11:35:00",
+                              "@val":"14.95"
+                           },
+                           {
+                              "@desc":"DEJA VU (12)",
+                              "@dateTime":"10 Sep 17:54:00",
+                              "@val":"3.99"
+                           }
+                        ]
+                     },
+                     {
+                        "@title":"Sky Store - Buy & Keep",
+                        "Trans":[
+                           {
+                              "@desc":"THE GOLDEN COMPASS (PG)",
+                              "@dateTime":"10 Sep",
+                              "@val":"3.99"
+                           },
+                           {
+                              "@desc":"WWE NO MERCY LIVE",
+                              "@dateTime":"20 Sep",
+                              "@val":"14.95"
+                           },
+                           {
+                              "@desc":"DEJA VU (12)",
+                              "@dateTime":"10 Sep",
+                              "@val":"3.99"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "@statementType":"ADDITIONAL_CHARGES",
+                  "@desc":"Additional charges",
+                  "@total":"1.50",
+                  "@hasNotification":"false",
+                  "TransactionDetailList":[
+                     {
+                        "Trans":[
+                           {
+                              "@desc":"PPV #1 Administration Charge",
+                              "@dateTime":"10 Sep",
+                              "@val":"3.99"
+                           },
+                           {
+                              "@desc":"Credit Card Admin Charge",
+                              "@dateTime":"20 Sep",
+                              "@val":"14.95"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "@statementType":"PRODUCTS_SERVICES",
+                  "@desc":"Additional products & services",
+                  "@total":"24.99",
+                  "@hasNotification":"false",
+                  "TransactionDetailList":[
+                     {
+                        "Trans":[
+                           {
+                              "@hasDiscounts":"true",
+                              "@undiscountedVal":"65.00",
+                              "@desc":"Service Call Visit",
+                              "@transType":"free",
+                              "@val":"0.00",
+                              "discounts":[
+                                 {
+                                    "@desc":"Free Service Call",
+                                    "@val":"-65.00"
+                                 },
+                                 {
+                                    "@desc":"Free Service Call Test",
+                                    "@val":"0.00"
+                                 }
+                              ]
+                           },
+                           {
+                              "@hasDiscounts":"false",
+                              "@desc":"Sky HD Remote Control",
+                              "@transType":"charge",
+                              "@val":"24.99"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "PaymentTransactionList":{
+            "@total":"-284.98",
+            "Trans":[
+               {
+                  "@date":"10 Sep 2014",
+                  "@desc":"Payment Received",
+                  "@val":"-24.99"
+               },
+               {
+                  "@date":"28 Sep 2014",
+                  "@desc":"Payment Received",
+                  "@val":"-39.40"
+               },
+               {
+                  "@date":"27 Nov 2014",
+                  "@desc":"Payment processing",
+                  "@val":"-126.90"
+               },
+               {
+                  "@date":"27 Dec 2014",
+                  "@desc":"Payment processing",
+                  "@val":"-92.00"
+               },
+               {
+                  "@date":"02 Sep 2014",
+                  "@desc":"Credit Adjustment",
+                  "@val":"-1.69"
+               }
+            ]
+         }
+      }
+   }
+}
